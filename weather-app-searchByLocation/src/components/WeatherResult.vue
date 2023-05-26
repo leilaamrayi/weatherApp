@@ -12,6 +12,7 @@
         </div>
 
         <div class="weather-description">
+          <p>Description: {{ currentWeather.weather[0].description }}</p>
           <p>Humidity: {{ currentWeather.main.humidity }}%</p>
           <p>Wind Speed: {{ currentWeather.wind.speed }} m/s</p>
           <p>Pressure: {{ currentWeather.main.pressure }} hPa</p>
